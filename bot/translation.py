@@ -4,8 +4,9 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>ＨＥＹ ʙɪᴛᴄʜ {} How are You!!</b>
-  𝗜  𝗔𝗺 𝗔 𝗨𝗹𝘁𝗿𝗮 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁...💣💣
+    START_TEXT = """<b>ＨＥＹ  ʙɪᴛᴄʜ  {} How are You!!</b>
+    
+     🤠 𝗜  𝗔𝗺 𝗔 𝗨𝗹𝘁𝗿𝗮 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁...💣💣
   
   ❌️ 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐀𝐝𝐝 𝐌𝐞 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ❌️
 
@@ -17,9 +18,9 @@ class Translation(object):
 
             @mhd_thanzeer
 
-【﻿Ｙａａａ　Ｈｏｏｏｏｏｏ💥
+﻿Ｙａａａ　Ｈｏｏｏｏｏ💥
 
-　　　　　　　　　　　Ｉａｍ　　ａ　　Ｄｅｖｉｌ　Ｂｏｙ　　　　　　　　　😈】
+💣Ｉａｍ　　ａ　　Ｄｅｖｉｌ　Ｂｏｙ 
 
 
 
