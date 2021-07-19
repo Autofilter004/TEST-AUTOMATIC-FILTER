@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("🥳 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗮𝗻𝗱 𝗘𝗻𝗷𝗼𝘆 🥳", url="https://t.me/joinchat/PJNSzIXTj4g1Njk1")
+                    InlineKeyboardButton("⬇️𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗔𝗡𝗗 𝗘𝗡𝗝𝗢𝗬⬇️", url="https://t.me/wolfpackmedia")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -86,7 +86,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"⭕{file_size} {file_name}"
+            button_text = f"📁{file_size}🎬{file_name}"
             
 
             if file_type == "video":
@@ -146,7 +146,7 @@ async def auto_filter(bot, update):
         len_results = len(results)
         results = None # Free Up Memory
         
-        FIND[query] = {"results": result, "total_len": len_results, "max_pages": max_pages} # TrojanzHex's Idea Of Dicts😅
+        FIND[query] = {"results": result, "total_len": len_results, "max_pages": max_pages} #mhd-Creation's Idea Of Dicts😅
 
         # Add next buttin if page count is not equal to 1
         if len_result != 1:
@@ -158,7 +158,7 @@ async def auto_filter(bot, update):
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"✅ Page 1/{len_result if len_result < max_pages else max_pages} ✅", callback_data="ignore")
+            InlineKeyboardButton(f"📘 Page 1/{len_result if len_result < max_pages else max_pages} 📘", callback_data="ignore")
         ])
         
         
@@ -187,13 +187,13 @@ async def auto_filter(bot, update):
                 if ((len(ibuttons)%2) == 0):
                     ibuttons.append(
                         [
-                            InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
+                            InlineKeyboardButton(f"🔰 {chat_name} 🔰", url=invite_link)
                         ]
                     )
 
                 else:
                     ibuttons[-1].append(
-                        InlineKeyboardButton(f"⚜ {chat_name} ⚜", url=invite_link)
+                        InlineKeyboardButton(f"🔰 {chat_name} 🔰", url=invite_link)
                     )
                 
             for x in ibuttons:
@@ -208,7 +208,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Click The File & START The Bot\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
+                text=f"𝘾𝙡𝙞𝙘𝙠 𝙔𝙤𝙪𝙧 𝙁𝙞𝙡𝙚 📁 𝙎𝙏𝘼𝙍𝙏  𝙏𝙝𝙚 𝘽𝙤𝙩\n𝐑𝐞𝐬𝐮𝐥𝐭𝐬 𝐅𝐨𝐮𝐧𝐝:- {(len_results)}\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐌𝐨𝐯𝐢𝐞:- <code>{query}</code>",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
