@@ -4,17 +4,26 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {} How are You!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+    START_TEXT = """<b>ＨＥＹ ʙɪᴛᴄʜ {} How are You!!</b>
+  𝗜  𝗔𝗺 𝗔 𝗨𝗹𝘁𝗿𝗮 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁...💣💣
+  
+  ❌️ 𝐘𝐨𝐮 𝐀𝐫𝐞 𝐀𝐝𝐝 𝐌𝐞 𝐆𝐫𝐨𝐮𝐩 𝐎𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ❌️
 
-You are not  able to add me to your group...😐
-But you can able to create me.......😍
+      😈 𝐈 𝐖𝐢𝐥𝐥 𝐊𝐢𝐜𝐤 𝐀𝐥𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬 😈
 
-This Bot Has Made This Person:--> @mhd_thanzeer 😍
+𝐌𝐘  𝐎𝐖𝐍𝐄𝐑 & 𝐁𝐎𝐒𝐒 𝐈𝐒
+
+       𝐎𝐍𝐄  𝐀𝐍𝐃  𝐎𝐍𝐋𝐘
+
+            @mhd_thanzeer
+
+【﻿Ｙａａａ　Ｈｏｏｏｏｏｏ💥
+
+　　　　　　　　　　　Ｉａｍ　　ａ　　Ｄｅｖｉｌ　Ｂｏｙ　　　　　　　　　😈】
 
 
-Any Help Please contact me:--> @mhd_thanzeer 🥰
-</i>"""    
+
+"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
@@ -57,5 +66,5 @@ Any Help Please contact me:--> @mhd_thanzeer 🥰
 
 <b>➥ My Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/mhdthanzeer07/wpm2">Click Me</a></i>
+<b>➥ Source Code</b> : <i><a href="https://telegra.ph/file/587de9bdd9486b806aeba.jpg">Click Me</a></i>
 """
