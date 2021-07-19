@@ -116,12 +116,12 @@ Join on our channel to get movies ✅
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/mhd_thanzeer'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/mhdthanzeer07/wpm2')
+        InlineKeyboardButton('👨‍🔬𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥👨‍🔬', url='https://t.me/mhd_thanzeer'),
+        InlineKeyboardButton('💥𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘💥', url ='https://telegra.ph/file/587de9bdd9486b806aeba.jpg')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/mhd_thanzeer')
+        InlineKeyboardButton('𝙎𝙐𝙋𝙋𝙊𝙍𝙏🛠', url='https://t.me/mhd_thanzeer')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💡ＨＥＬＰ💡', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
