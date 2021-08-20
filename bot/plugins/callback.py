@@ -1601,7 +1601,7 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>𝐁𝐨𝐭'𝐬 𝐒𝐭𝐚𝐭𝐮𝐬</u></i>\n"
     text+=f"\n<b><i>𝐁𝐨𝐭'𝐬 𝐔𝐩𝐭𝐢𝐦𝐞:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>𝐁𝐨𝐭'𝐬 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>𝐁𝐨𝐭'𝐬 𝐎𝐧𝐰𝐞𝐫:</i></b> <a href="https://t.me/mhd_thanzeer">@mhd_thanzeer</a>\n"""
+    text+=f"""\n<b><i>𝐁𝐨𝐭'𝐬 𝐎𝐧𝐰𝐞𝐫:</i></b> <a href="https://t.me/mhd_thanzeer">𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥</a>\n"""
     text+="""\n<b><i>𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲:</i></b> <a href="https://telegra.ph/file/9a30e31b4ec7813bb951c.jpg">Source</a>"""
 
     buttons = [
