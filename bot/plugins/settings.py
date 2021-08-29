@@ -71,6 +71,22 @@ async def settings(bot, update):
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
+    await bot.send_photo(
+
+        chat_id=update.chat.id,
+
+        photo = 'https://telegra.ph/file/e76d40ed899c2abd87209.jpg',
+
+        caption=Translation.START_TEXT.format(
+
+                update.from_user.first_name),
+
+        parse_mode="html",
+
+        reply_to_message_id=update.message_id
+
+    )
+    
     await bot.send_message (
         
         chat_id=chat_id, 
