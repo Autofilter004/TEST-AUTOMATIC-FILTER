@@ -126,6 +126,20 @@ Join on our channel to get movies ✅
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
+    await bot.send_message(
+
+        chat_id=update.chat.id,
+
+        text=Translation.HELP_TEXT,
+
+        reply_markup=reply_markup,
+
+        parse_mode="html",
+
+        reply_to_message_id=update.message_id
+
+    )
+    
     await bot.send_photo(
 
         chat_id=update.chat.id,
